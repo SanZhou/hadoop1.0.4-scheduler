@@ -233,6 +233,9 @@ public class JobInProgress {
   long startTime;
   long launchTime;
   long finishTime;
+  // add by wei
+  int relativeDeadline;
+  long deadLine;
 
   // First *task launch time
   final Map<TaskType, Long> firstTaskLaunchTimes =
@@ -428,6 +431,12 @@ public class JobInProgress {
       
       this.priority = conf.getJobPriority();
       this.status.setJobPriority(this.priority);
+      //add by wei
+      this.relativeDeadline = conf.getJobRelativeDeadline();
+      this.status.setJobRelativeDeadline(this.relativeDeadline);
+      this.deadLine = this.startTime + this.relativeDeadline * 1000;
+      this.status.setJobDeadline(this.deadLine);
+
       String queueName = conf.getQueueName();
       this.profile = new JobProfile(user, jobId, 
           jobFile, url, conf.getJobName(), queueName);
@@ -832,9 +841,21 @@ public class JobInProgress {
   public long getStartTime() {
     return startTime;
   }
+  
+  //add by wei
+  public int getJobRelativeDeadline() {
+    return relativeDeadline;
+  }
+
+  //add by wei
+  public long getJobDeadline() {
+    return deadLine;
+  }
+
   public long getFinishTime() {
     return finishTime;
   }
+
   public int desiredMaps() {
     return numMapTasks;
   }
@@ -1064,6 +1085,7 @@ public class JobInProgress {
     boolean wasPending = tip.isOnlyCommitPending();
     TaskAttemptID taskid = status.getTaskID();
     boolean wasAttemptRunning = tip.isAttemptRunning(taskid);
+    String machine = new String("hostname");
 
     // If the TIP is already completed and the task reports as SUCCEEDED then 
     // mark the task as KILLED.
@@ -1109,6 +1131,7 @@ public class JobInProgress {
         }
         httpTaskLogLocation = "http://" + host + ":" + ttStatus.getHttpPort(); 
            //+ "/tasklog?plaintext=true&attemptid=" + status.getTaskID();
+        machine = host;
       }
 
       TaskCompletionEvent taskEvent = null;
@@ -1125,6 +1148,7 @@ public class JobInProgress {
                                            );
         taskEvent.setTaskRunTime((int)(status.getFinishTime() 
                                        - status.getStartTime()));
+
         tip.setSuccessEventNumber(taskCompletionEventTracker); 
       } else if (state == TaskStatus.State.COMMIT_PENDING) {
         // If it is the first attempt reporting COMMIT_PENDING
@@ -1180,6 +1204,37 @@ public class JobInProgress {
                                             httpTaskLogLocation
                                            );
       }          
+
+      // add by wei
+        if(state == TaskStatus.State.SUCCEEDED || state == TaskStatus.State.FAILED || state == TaskStatus.State.KILLED){
+          if(status.getIsMap()){
+            if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
+
+              System.out.printf("JobName=%s, ID=%s, Type=MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
+            }
+            else{
+              System.out.printf("JobName=%s, ID=%s, Type=SC_MAP, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
+           }
+          }
+          else{
+            if(!tip.isJobCleanupTask() && !tip.isJobSetupTask()){
+              System.out.printf("JobName=%s, ID=%s, Type=REDUCE, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d, ShuffleTime=%d, SortTime=%d %n",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime(),
+                                status.getShuffleFinishTime()-status.getStartTime(), status.getSortFinishTime()-status.getShuffleFinishTime());
+            }
+            else{
+              System.out.printf("JobName=%s, ID=%s, Type=SC_REDUCE, Status=%s, Machine=%s, StartTime=%s, FinishTime=%s, ExecTime=%d %n ",
+                                tip.getJob().getProfile().getJobName(), taskid, status.getRunState(), machine, 
+                                status.getStartTime(), status.getFinishTime(), status.getFinishTime()-status.getStartTime());
+
+            }
+          }
+        }
 
       // Add the 'complete' task i.e. successful/failed
       // It _is_ safe to add the TaskCompletionEvent.Status.SUCCEEDED
@@ -2628,6 +2683,14 @@ public class JobInProgress {
       }
       else {
         jobComplete();
+        //add by wei
+        JobInProgress job = tip.getJob();
+        if (job.getFinishTime() <= job.getJobDeadline()) {
+          System.out.printf("&&&job %s meet deadline, jobFinishTime=%d %n", job.getProfile().getJobName(), job.getFinishTime());
+        } 
+        else {
+          System.out.printf("&&&job %s miss deadline, jobFinishTime=%d %n", job.getProfile().getJobName(), job.getFinishTime());
+        }
       }
       // The job has been killed/failed/successful
       // JobTracker should cleanup this task

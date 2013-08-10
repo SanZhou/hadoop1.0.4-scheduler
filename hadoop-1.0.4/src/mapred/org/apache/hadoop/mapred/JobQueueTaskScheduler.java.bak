@@ -66,7 +66,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
       taskTrackerManager.addJobInProgressListener(
           eagerTaskInitializationListener);
       running = true;
-//      new UpdateThread().start();
+      new UpdateThread().start();
     } catch (Exception e) {
       LOG.error("Failed to start threads ", e);
     }
@@ -175,44 +175,19 @@ class JobQueueTaskScheduler extends TaskScheduler {
     
     int numLocalMaps = 0;
     int numNonLocalMaps = 0;
-    boolean canMeetDeadline = false;
-    int j = 0;
-    System.out.printf("$$$The total map free slots in TaskTracker %s is %d %n", taskTracker.getStatus().getHost(), availableMapSlots);
-
     scheduleMaps:
     for (int i=0; i < availableMapSlots; ++i) {
-      JobInProgress job = null;
-      JobInProgress firstJob = null;
       synchronized (jobQueue) {
-        for (JobInProgress jobTmp : jobQueue) {
-        System.out.printf("%%%%JobName=%s Deadline=%d %n", jobTmp.getProfile().getJobName(), jobTmp.getJobDeadline());  
-	if(firstJob == null && jobTmp.getStatus().getRunState() == JobStatus.RUNNING ) {
-            firstJob = jobTmp;
-            j = i + 1;
-          }
-   
-          if (jobTmp.getStatus().getRunState() != JobStatus.RUNNING) {
+        for (JobInProgress job : jobQueue) {
+          if (job.getStatus().getRunState() != JobStatus.RUNNING) {
             continue;
           }
-	  canMeetDeadline = canMeetDeadline(jobTmp);
-          System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d %n", jobTmp.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
+	  boolean canMeetDeadline = canMeetDeadline(job);
+          System.out.printf("***JobName=%s, canMeetDeadline=%b, currentTime=%d", job.getProfile().getJobName(), canMeetDeadline, System.currentTimeMillis()); 
           //add by wei
-          if (jobTmp.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline) {
+          if (job.getStatus().getRunState() == JobStatus.RUNNING && canMeetDeadline) {
 	    continue;	
 	  }
-          j = i + 1;
-          job = jobTmp;
-          break;
-        }
-      
-        //add by wei
-        // Check if we found a job
-        if (job == null) {
-     //   job = jobQueue.iterator.next();
-          job = firstJob;
-        }
-        
-        System.out.printf("@@@Job %s gets the %dth map free slot from TaskTracker %s %n", job.getProfile().getJobName(), j, taskTracker.getStatus().getHost());
 
           Task t = null;
           
@@ -249,6 +224,7 @@ class JobQueueTaskScheduler extends TaskScheduler {
             // from other TaskTrackers.
             break scheduleMaps;
           }
+        }
       }
     }
     int assignedMaps = assignedTasks.size();
