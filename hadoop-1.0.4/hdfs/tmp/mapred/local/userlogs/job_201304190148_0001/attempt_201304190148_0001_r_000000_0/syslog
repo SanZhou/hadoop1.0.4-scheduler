@@ -1,0 +1,37 @@
+2013-04-19 01:50:39,993 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2013-04-19 01:50:40,591 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2013-04-19 01:50:40,817 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2013-04-19 01:50:40,823 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@3bab0b5a
+2013-04-19 01:50:40,909 INFO org.apache.hadoop.mapred.ReduceTask: ShuffleRamManager: MemoryLimit=141937872, MaxSingleShuffleLimit=35484468
+2013-04-19 01:50:40,929 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Thread started: Thread for merging in memory files
+2013-04-19 01:50:40,929 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Thread started: Thread for merging on-disk files
+2013-04-19 01:50:40,929 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Thread waiting: Thread for merging on-disk files
+2013-04-19 01:50:40,932 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Need another 400 map output(s) where 0 is already in progress
+2013-04-19 01:50:40,933 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 0 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:40,933 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Thread started: Thread for polling Map Completion Events
+2013-04-19 01:50:41,948 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201304190148_0001_m_000020_0'
+2013-04-19 01:50:45,933 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,468 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,473 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,483 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,489 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,493 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,497 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,506 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,506 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,525 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,525 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,544 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,549 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,554 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,571 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,590 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,593 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,610 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,611 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:47,648 INFO org.apache.hadoop.mapred.ReduceTask: attempt_201304190148_0001_r_000000_0 Scheduled 1 outputs (0 slow hosts and0 dup hosts)
+2013-04-19 01:50:48,966 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201304190148_0001_m_000021_0'
+2013-04-19 01:50:48,967 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201304190148_0001_m_000020_1'
+2013-04-19 01:50:57,988 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201304190148_0001_m_000020_2'
+2013-04-19 01:50:57,988 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201304190148_0001_m_000021_1'
+2013-04-19 01:51:04,000 INFO org.apache.hadoop.mapred.ReduceTask: Ignoring obsolete output of FAILED map-task: 'attempt_201304190148_0001_m_000021_2'

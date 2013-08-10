@@ -1,0 +1,15 @@
+2013-04-19 03:22:02,583 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2013-04-19 03:22:03,225 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2013-04-19 03:22:03,446 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2013-04-19 03:22:03,452 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@be4535e
+2013-04-19 03:22:03,595 INFO org.apache.hadoop.mapred.MapTask: numReduceTasks: 1
+2013-04-19 03:22:03,603 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2013-04-19 03:22:03,786 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2013-04-19 03:22:03,786 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2013-04-19 03:22:03,902 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2013-04-19 03:22:03,908 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2013-04-19 03:22:03,916 INFO org.apache.hadoop.mapred.Task: Task:attempt_201304190148_0003_m_000271_0 is done. And is in the process of commiting
+2013-04-19 03:22:06,444 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201304190148_0003_m_000271_0' done.
+2013-04-19 03:22:06,501 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2013-04-19 03:22:06,583 INFO org.apache.hadoop.io.nativeio.NativeIO: Initialized cache for UID to User mapping with a cache timeout of 14400 seconds.
+2013-04-19 03:22:06,584 INFO org.apache.hadoop.io.nativeio.NativeIO: Got UserName hadoop for UID 1000 from the native implementation

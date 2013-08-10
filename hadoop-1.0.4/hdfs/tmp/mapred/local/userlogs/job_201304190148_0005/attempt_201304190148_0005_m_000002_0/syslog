@@ -1,0 +1,13 @@
+2013-04-19 03:58:23,749 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2013-04-19 03:58:24,335 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2013-04-19 03:58:24,544 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2013-04-19 03:58:24,550 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@27758c30
+2013-04-19 03:58:24,678 INFO org.apache.hadoop.mapred.MapTask: numReduceTasks: 1
+2013-04-19 03:58:24,688 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2013-04-19 03:58:24,825 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2013-04-19 03:58:24,825 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2013-04-19 03:58:24,905 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2013-04-19 03:58:24,915 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2013-04-19 03:58:24,918 INFO org.apache.hadoop.mapred.Task: Task:attempt_201304190148_0005_m_000002_0 is done. And is in the process of commiting
+2013-04-19 03:58:27,538 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201304190148_0005_m_000002_0' done.
+2013-04-19 03:58:27,606 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1

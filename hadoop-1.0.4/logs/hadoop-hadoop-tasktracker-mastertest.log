@@ -1,0 +1,13 @@
+2013-08-09 17:56:53,109 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081358_0002
+2013-08-09 17:56:53,113 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081459_0002
+2013-08-09 17:56:53,116 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081459_0001
+2013-08-09 17:56:53,120 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081533_0001
+2013-08-09 17:56:53,124 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081533_0002
+2013-08-09 17:56:53,131 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081358_0001
+2013-08-09 17:56:53,137 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081344_0002
+2013-08-09 17:56:53,140 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081434_0001
+2013-08-09 17:56:53,144 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081344_0001
+2013-08-09 17:56:53,148 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081540_0002
+2013-08-09 17:56:53,155 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081540_0001
+2013-08-09 18:56:53,109 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081756_0001
+2013-08-09 18:56:53,113 INFO org.apache.hadoop.mapred.UserLogCleaner: Deleting user log path job_201308081756_0002

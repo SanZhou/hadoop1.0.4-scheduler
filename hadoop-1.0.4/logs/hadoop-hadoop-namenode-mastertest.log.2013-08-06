@@ -1,0 +1,144 @@
+2013-08-06 00:35:05,751 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 00:37:07,007 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 00:39:55,346 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 00:39:55,347 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 00:39:56,528 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 00:39:56,528 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-06 01:35:06,952 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 01:37:08,196 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 1 msecs
+2013-08-06 01:39:57,010 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 01:39:57,010 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 01:39:58,343 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 01:39:58,343 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 76 
+2013-08-06 02:35:08,153 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 02:37:06,382 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 02:39:58,874 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 02:39:58,875 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 02:40:00,022 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 02:40:00,022 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-08-06 03:35:06,353 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 03:37:07,570 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 1 msecs
+2013-08-06 03:40:00,582 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 03:40:00,582 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 03:40:01,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 03:40:01,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-06 04:35:07,554 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 04:37:05,756 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 04:40:02,209 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 04:40:02,210 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 04:40:03,491 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 04:40:03,491 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-08-06 05:35:05,754 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 05:37:06,944 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 05:40:03,973 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 05:40:03,973 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 05:40:05,239 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 05:40:05,239 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-06 06:35:06,955 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 06:37:08,131 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 06:40:05,779 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 06:40:05,779 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 06:40:06,868 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 06:40:06,869 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-08-06 07:35:08,156 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 07:37:06,318 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 07:40:07,358 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 07:40:07,358 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 07:40:08,548 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 07:40:08,548 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-06 08:35:06,362 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 08:37:07,505 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 08:40:09,026 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 08:40:09,026 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 08:40:10,125 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 08:40:10,125 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 84 
+2013-08-06 09:35:07,562 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 09:37:05,691 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 09:40:10,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 09:40:10,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 09:40:11,830 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 09:40:11,830 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-06 10:35:05,761 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 10:37:06,879 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 10:40:12,360 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 10:40:12,361 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 10:40:13,592 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 10:40:13,592 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 84 
+2013-08-06 11:35:06,961 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 11:37:08,066 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 11:40:14,147 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 11:40:14,147 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 11:40:15,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 11:40:15,500 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 84 
+2013-08-06 12:35:08,161 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 12:37:06,253 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 12:40:15,991 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 12:40:15,991 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 12:40:17,098 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 12:40:17,098 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-06 13:35:06,360 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 13:37:07,440 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 13:40:17,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 13:40:17,623 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 13:40:18,796 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 13:40:18,797 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-06 14:35:07,560 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 14:37:05,627 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 14:40:19,265 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 14:40:19,265 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 14:40:20,414 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 14:40:20,414 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-08-06 15:35:05,759 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 15:37:06,814 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 15:40:20,882 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 15:40:20,882 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 15:40:21,964 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 15:40:21,965 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-08-06 16:35:06,959 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 16:37:08,002 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 16:40:22,442 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 16:40:22,442 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 16:40:23,583 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 16:40:23,583 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 84 
+2013-08-06 17:35:08,159 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 17:37:06,189 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 1 msecs
+2013-08-06 17:40:24,116 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 17:40:24,116 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 17:40:25,382 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 17:40:25,382 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 75 
+2013-08-06 18:35:06,358 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 18:37:07,375 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 18:40:25,922 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 18:40:25,922 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 18:40:27,087 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 18:40:27,087 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 84 
+2013-08-06 19:35:07,558 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 19:37:05,562 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 19:40:27,602 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 19:40:27,602 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 19:40:28,725 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 19:40:28,726 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 84 
+2013-08-06 20:35:05,757 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 20:37:06,749 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 20:40:29,215 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 20:40:29,215 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 20:40:30,379 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 20:40:30,380 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 79 
+2013-08-06 21:35:06,957 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 21:37:07,937 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 21:40:30,860 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 21:40:30,860 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 21:40:32,049 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 21:40:32,049 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 
+2013-08-06 22:35:08,157 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 22:37:06,123 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 22:40:32,532 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 22:40:32,532 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 22:40:33,713 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 22:40:33,714 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 84 
+2013-08-06 23:35:06,356 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.222:50010, blocks: 139, processing time: 0 msecs
+2013-08-06 23:37:07,311 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.1.223:50010, blocks: 131, processing time: 0 msecs
+2013-08-06 23:40:34,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.1.222
+2013-08-06 23:40:34,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2013-08-06 23:40:35,500 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.1.222
+2013-08-06 23:40:35,500 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 83 

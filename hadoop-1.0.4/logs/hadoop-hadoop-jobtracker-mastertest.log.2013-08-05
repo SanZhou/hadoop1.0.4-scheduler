@@ -1,0 +1,5 @@
+2013-08-05 20:34:09,467 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2013-08-05 20:40:38,832 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201308042034_0003' of user 'hadoop'
+2013-08-05 20:40:38,832 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/hadoop/hadoop-scheduler/hadoop-1.0.4/libexec/../logs/job_201308042034_0003_conf.xml
+2013-08-05 20:41:38,834 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201308042034_0002' of user 'hadoop'
+2013-08-05 20:41:38,834 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/hadoop/hadoop-scheduler/hadoop-1.0.4/libexec/../logs/job_201308042034_0002_conf.xml

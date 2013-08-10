@@ -1,0 +1,45 @@
+2013-04-19 03:35:34,324 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2013-04-19 03:35:34,918 WARN org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Source name ugi already exists!
+2013-04-19 03:35:35,049 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2013-04-19 03:35:35,055 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@40f4dd2b
+2013-04-19 03:35:35,149 INFO org.apache.hadoop.mapred.MapTask: numReduceTasks: 1
+2013-04-19 03:35:35,160 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2013-04-19 03:35:35,331 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2013-04-19 03:35:35,331 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2013-04-19 03:35:35,431 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2013-04-19 03:35:35,448 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2013-04-19 03:35:35,452 INFO org.apache.hadoop.mapred.Task: Task:attempt_201304190148_0004_m_000077_0 is done. And is in the process of commiting
+2013-04-19 03:35:38,071 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201304190148_0004_m_000077_0' done.
+2013-04-19 03:35:38,169 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
+2013-04-19 03:35:38,249 WARN org.apache.hadoop.mapred.Child: Error running child
+java.lang.RuntimeException: Error while running command to get file permissions : org.apache.hadoop.util.Shell$ExitCodeException: 
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:255)
+	at org.apache.hadoop.util.Shell.run(Shell.java:182)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:375)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:461)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:444)
+	at org.apache.hadoop.fs.FileUtil.execCommand(FileUtil.java:710)
+	at org.apache.hadoop.fs.RawLocalFileSystem$RawLocalFileStatus.loadPermissionInfo(RawLocalFileSystem.java:443)
+	at org.apache.hadoop.fs.RawLocalFileSystem$RawLocalFileStatus.getOwner(RawLocalFileSystem.java:426)
+	at org.apache.hadoop.mapred.TaskLog.obtainLogDirOwner(TaskLog.java:267)
+	at org.apache.hadoop.mapred.TaskLog.getAllLogsFileDetails(TaskLog.java:191)
+	at org.apache.hadoop.mapred.TaskLogsTruncater.getAllLogsFileDetails(TaskLogsTruncater.java:342)
+	at org.apache.hadoop.mapred.TaskLogsTruncater.truncateLogs(TaskLogsTruncater.java:134)
+	at org.apache.hadoop.mapred.Child$4.run(Child.java:260)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1121)
+	at org.apache.hadoop.mapred.Child.main(Child.java:249)
+
+	at org.apache.hadoop.fs.RawLocalFileSystem$RawLocalFileStatus.loadPermissionInfo(RawLocalFileSystem.java:468)
+	at org.apache.hadoop.fs.RawLocalFileSystem$RawLocalFileStatus.getOwner(RawLocalFileSystem.java:426)
+	at org.apache.hadoop.mapred.TaskLog.obtainLogDirOwner(TaskLog.java:267)
+	at org.apache.hadoop.mapred.TaskLog.getAllLogsFileDetails(TaskLog.java:191)
+	at org.apache.hadoop.mapred.TaskLogsTruncater.getAllLogsFileDetails(TaskLogsTruncater.java:342)
+	at org.apache.hadoop.mapred.TaskLogsTruncater.truncateLogs(TaskLogsTruncater.java:134)
+	at org.apache.hadoop.mapred.Child$4.run(Child.java:260)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1121)
+	at org.apache.hadoop.mapred.Child.main(Child.java:249)
+2013-04-19 03:35:38,281 WARN org.apache.hadoop.mapred.Task: Parent died.  Exiting attempt_201304190148_0004_m_000077_0
